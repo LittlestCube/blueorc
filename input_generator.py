@@ -13,11 +13,11 @@ def random_letter_generator(values):
 
 for file_number in range(80):
     random_number = random.randint(0, 1)
-    limit = random.randint(1, 1024) + 1
+    limit = random.randint(1, 256) + 1
 
 
     input_file = open(f'input/input{file_number}.txt', 'w+')
-    
+
     sol = 0
     for _ in range(int(limit/2)):
         i = random.randint(-32768, 32767)
