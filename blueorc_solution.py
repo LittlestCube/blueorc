@@ -1,5 +1,8 @@
-size = int(input())
-input_array = [list(map(str, input().split())) for _ in range(size)]
+#size = int(input())
+#input_array = [list(map(str, input().split())) for _ in range(size)]
+
+size = 10
+input_array = [1,8,1,3,2,7,3,7,2,3]
 
 val = 52
 nums_arr = [0] + [2*x + 1 for x in range((val))]
