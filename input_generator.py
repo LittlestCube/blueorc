@@ -17,8 +17,7 @@ for file_number in range(80):
 
 
     input_file = open(f'input/input{file_number}.txt', 'w+')
-    input_file.write(f"{limit}\n")
-
+    
     sol = 0
     for _ in range(int(limit/2)):
         i = random.randint(-32768, 32767)
